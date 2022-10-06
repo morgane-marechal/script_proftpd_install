@@ -11,3 +11,4 @@ sudo cat $here/proftpd.conf > /etc/proftpd/proftpd.conf
 sudo cat $here/tls.conf > /etc/proftpd/tls.conf
 sudo cat $here/modules.conf > /etc/proftpd/modules.conf
 sudo systemctl restart proftpd
+echo "Installation terminée !!!!!!!"
